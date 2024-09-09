@@ -5,6 +5,8 @@ p {
 }
 
 body {
+  background-color: black;
+  color: white;
   font-family: merriweather;
   margin-left: 60px;
   margin-right: 60px;
