@@ -1,15 +1,11 @@
-p {
-  font-family: merriweather, sans-serif;
-  font-size: 14px;
-
-}
-
 body {
   background-color: black;
   font-family: merriweather;
-
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 100px;
   width: 90%;
-
 }
 
 h1 {
@@ -21,7 +17,7 @@ h2 {
   color: cornflowerblue;
   font-size: 18px;
   font-family: merriweather, sans-serif;
-
+  margin-top: 20px;
 }
 
 h3 {
@@ -32,7 +28,7 @@ h3 {
 h4 {
   font-size: 12px;
   font-family: merriweather, sans-serif;
-
+  margin-top: 0px;
 }
 
 
@@ -41,13 +37,20 @@ h5 {
 }
 
 ul { 
-
+  padding: 0px 30px 0px 30px;
   
+}
+
+p {
+  font-family: merriweather, sans-serif;
+  font-size: 14px;
+  Margin: 0px 0px 0px 0px
 }
 
 .header {
   font-family: merriweather, sans-serif;
   font-size: 36px;
+  Margin: 0px 0px 0px 0px
 }
 
 header {
@@ -70,6 +73,6 @@ section2 {
 .container {
   display: grid;
   grid-template-columns: 3fr 1fr;
-
+  gap: 20px;
     
 }
